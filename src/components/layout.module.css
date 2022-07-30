@@ -1,0 +1,22 @@
+
+
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    margin-right: 10px;
+}
+
+.heading {
+    color: black;
+}

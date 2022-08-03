@@ -1,17 +1,35 @@
 
 
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import
-    {container, navigation, heading}
+    {container, navigation, heading, header}
         from "../components/layout.module.css"
+
+
 const Layout = ({ pageTitle, children }) => {
+
+    const data = useStaticQuery(graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `)
+
+    const siteTitle = data.site.siteMetadata.title
 
   return (
 
     <div className={container}>
 
-     <title>{pageTitle}</title>
+     <title>{siteTitle} | {pageTitle}</title>
+
+     <header className={header}>
+        {siteTitle}
+     </header>
 
       <nav>
 
@@ -20,6 +38,8 @@ const Layout = ({ pageTitle, children }) => {
           <li><Link to="/">Home</Link></li>
 
           <li><Link to="/about">About</Link></li>
+
+          <li><Link to="/articles">Articles</Link></li>
 
         </ul>
 

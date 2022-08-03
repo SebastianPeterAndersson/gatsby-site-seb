@@ -7,6 +7,14 @@
     font-family: sans-serif;
 }
 
+.header {
+    font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
+
+}
+
 .navigation {
     display: flex;
     list-style: none;

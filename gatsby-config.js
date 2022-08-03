@@ -1,10 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Site Seb`,
+    title: `Sebsite`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
       "gatsby-plugin-image",
-      "gatsby-plugin-sharp",
+      "gatsby-plugin-sharp",{
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `articles`,
+        path: `${__dirname}/articles`,
+      }
+    },
   ],
 }

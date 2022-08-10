@@ -17,7 +17,7 @@ const IndexPage = () => {
       son of a gun!</p>
       <p>Or, take a look at this nice swan:</p>
       <StaticImage
-      alt="a swan in nice water"
+      alt="A swan in nice water"
       src="https://cdn.pixabay.com/photo/2017/02/18/13/55/swan-2077219_1280.jpg">
       </StaticImage>
     </Layout>

@@ -12,7 +12,7 @@ const AboutPage = () => {
       <p>Hello, you. This is Sebastian speaking.
       How very nice of you to stop by.</p>
       <StaticImage
-      alt="a swan in nice water"
+      alt="A nice Seb standing there"
       src="../images/seb.png">
       </StaticImage>
     </Layout>

@@ -20,6 +20,8 @@ const IndexPage = () => {
       alt="A swan in nice water"
       src="https://cdn.pixabay.com/photo/2017/02/18/13/55/swan-2077219_1280.jpg">
       </StaticImage>
+      <p>Have a great day!</p>
+      <p><b>Seb</b></p>
     </Layout>
   )
 }

@@ -6,7 +6,11 @@
     max-width: 500px;
     font-family: sans-serif;
 }
-
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 20rem;
+}
 .header {
     font-size: 3rem;
   color: gray;

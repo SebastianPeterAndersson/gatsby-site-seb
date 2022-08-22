@@ -35,7 +35,7 @@ const Layout = ({ pageTitle, children }) => {
 
       <nav>
 
-        <ul className={navigation}>
+        {/* <ul className={navigation}>
 
           <li><Link to="/">Home</Link></li>
 
@@ -43,7 +43,7 @@ const Layout = ({ pageTitle, children }) => {
 
           <li><Link to="/articles">Articles</Link></li>
 
-        </ul>
+        </ul> */}
 
       </nav>
 
